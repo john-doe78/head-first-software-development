@@ -2,7 +2,9 @@
 	  
 # Head First Software Development, by Dan Pilone
 	  
-[![Head First Software Development, by Dan Pilone](http://akamaicovers.oreilly.com/images/9780596527358/cat.gif)](https://www.safaribooksonline.com/library/view/title/9780596527358//)
+[![Head First Software Development, by Dan Pilone](https://learning.oreilly.com/library/cover/9780596527358/250w/)](https://www.safaribooksonline.com/library/view/title/9780596527358//)
+
+### [Errata for Head First Software Development](https://www.oreilly.com/catalog/errata.csp?isbn=9780596527358)
 	  
 The following applies to example files from material published by O’Reilly Media, Inc. Content from other publishers may include different rules of usage. Please refer to any additional usage rights explained in the actual example files or refer to the publisher’s website.
 	  
