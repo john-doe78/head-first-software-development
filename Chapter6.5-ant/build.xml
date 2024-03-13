@@ -1,0 +1,23 @@
+<!-- Every build file starts with the project tag.  The
+     name is just there as a description.  The default
+     attribute says what target to execute if the caller
+     didn't specify one on the command line.-->
+<project name="BeatBox" default="dist">
+    <target name="init" description="Creates the needed directories.">
+        <mkdir dir="bin"/>
+        <mkdir dir="dist"/>
+    </target>
+
+    <target name="clean" description="Cleans up the build and dist directories.">
+        <delete dir="bin"/>
+        <delete dir="dist"/>
+    </target>
+
+    <target name="compile" depends="init" description="Compiles the source files to the bin directory.">
+        <javac debug="true" srcdir="src" destdir="bin"/>
+    </target>
+
+    <target name="dist" depends="compile" description="Packages up BeatBox into BeatBox.jar">
+        <jar destfile="dist/BeatBox.jar" basedir="bin"/>
+    </target>
+</project>
